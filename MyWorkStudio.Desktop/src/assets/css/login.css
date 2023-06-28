@@ -1,0 +1,77 @@
+.login-container {
+    background: url(../loginbackground.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    margin-top: 10px;
+    letter-spacing: .3rem;
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+  
+  form {
+    background: #fff;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    display: flex;
+  }
+  
+  #employeeNumber {
+    width: 220px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 10px 0;
+    background: url(../yh.png) no-repeat;
+    background-color: white;
+    background-position: 3px;
+    padding-left: 35px;
+    border: 1px solid #ccc;
+  }
+  
+  #password {
+    width: 220px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 10px 0;
+    background: url(../mm.png) no-repeat;
+    background-color: white;
+    background-position: 3px;
+    padding-left: 35px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    width: 75px;
+    height: 35px;
+    margin: 40px 0 10px 0;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    letter-spacing: .2rem;
+    cursor: pointer;
+  }

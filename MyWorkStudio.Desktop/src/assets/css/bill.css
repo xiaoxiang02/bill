@@ -1,0 +1,63 @@
+h1 {
+    padding-top: 10px;
+    text-align: center;
+    color: #47c95f;
+}
+
+.bill-list {
+    margin: 20px;
+    margin-bottom: 200px;
+}
+
+.cz{
+   position: relative;
+}
+
+.cz .add{
+    position: relative;
+    margin-left: 103px;
+    margin-top: 10px;
+}
+
+.filter {
+    width: 270px;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.filter p {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.filter input {
+    transform: scale(1.6);
+    margin-right: 6px;
+}
+
+table {
+    width: 1500px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    border: 1px solid black;
+}
+
+th {
+    background-color: rgb(217, 217, 217);
+}
+
+td div{
+    width: 90px;
+    display: inline-block;
+}
+
+

@@ -1,0 +1,29 @@
+.router-link-exact-active {
+    color: #47c95f !important;
+    border-bottom: 2px solid #47c95f;
+  }
+  
+  .un {
+    width: 150px;
+    margin: -44.5px 0 0 1200px;
+    font-size: 18px;
+  }
+  
+  a {
+    font-size: 15px;
+  }
+  
+  .user {
+    width: 100px;
+    margin-left: 100px;
+  }
+  
+  .el-dropdown-link {
+    cursor: pointer;
+    color: #409EFF;
+    font-size: 17px;
+  }
+  
+  .el-icon-arrow-down {
+    font-size: 15px;
+  }

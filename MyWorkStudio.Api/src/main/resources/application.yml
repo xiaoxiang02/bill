@@ -1,0 +1,19 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/lele_jz?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8088
+mybatis-plus:
+  type-enums-package: net.lzzy.accountingserver.enums
+  configuration:
+    default-enum-type-handler: org.apache.ibatis.type.EnumOrdinalTypeHandler
+app.over.minutes: 25
